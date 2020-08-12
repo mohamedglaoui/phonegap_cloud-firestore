@@ -1,6 +1,14 @@
 # phonegap_cloud-firestore
+
+****************************************************************************************************
+****************************************************************************************************
 NB NB NB NB 
-you should add your googl.service.jdon file to your app folder
+you should add your googl-service.json file imported from your firebase console to your app folder
+****************************************************************************************************
+****************************************************************************************************
+
+
+
 # Hello World PhoneGap Template [![bitHound Score][bithound-img]][bithound-url]
 
 A PhoneGap Hello World template
