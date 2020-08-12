@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+         <link rel="stylesheet" href="css/style1.css">
+        
+    </head>
+    <body >
+
+
+<div >
+    <center><br><br>
+        
+       
+           <button id="search"   onclick="search()"></button>
+           <input id="input1" type="text" name="search" placeholder="Search..">
+
+        
+     <p>Please select your type</p>
+     <select id="select">
+  <option value="" disabled selected hidden>type</option>
+  <option value="0">card</option>
+   <option value="1">power</option>
+  <option value="2">sensor</option>
+  <option value="3">wire</option>
+</select><br><br>
+
+<button type="button" onclick="view_product()">View product</button>
+<div id="tabl"></div>
+    </center>
+</div>
+<script src="js/save.js"></script>
+    </body>
+</html>
